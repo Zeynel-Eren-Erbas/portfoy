@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0f0f1a;
+  --color-card: #1a1a2e;
+  --color-accent: #00d2ff;
+  --color-accent-end: #3a7bd5;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #888888;
+  --color-border: #333333;
+  --color-success: #00d2ff;
+  
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-text-primary font-sans;
+  }
+}
